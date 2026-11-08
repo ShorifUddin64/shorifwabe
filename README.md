@@ -1,6 +1,10 @@
-# Interactive Office
+# Real photo textures (optional)
 
-index.html, css/style.css, js/ (config.js = your texts; 01..05 = code; models.js, textures.js = optional real assets), models/, textures/
+Add any of these jpg files here (CC0 packs: ambientcg.com, polyhaven.com - download the "Color" jpg):
 
-GitHub Pages: upload the whole folder, Settings -> Pages -> main / root. Link from your portfolio: <a href="office/">Office</a>.
-Use relative paths only. File names are case-sensitive. Test .glb files via the GitHub link or VS Code Live Server (not double-click).
+- asphalt.jpg  : roads
+- grass.jpg    : ground
+- wood.jpg     : office floors
+- sky.jpg      : 360 sky photo (equirectangular, 2:1)
+
+Missing files are skipped. If a texture looks too big or too small, change `tileScale` in `js/config.js` (REALTEX).
